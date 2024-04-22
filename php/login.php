@@ -30,6 +30,7 @@ try {
 
     // Check if a password was found and verify it
     if ($storedPassword && $password == $storedPassword) {
+        
         // Redirect the user to another page (e.g., dashboard)
         session_start();
         $_SESSION['username'] = $username;

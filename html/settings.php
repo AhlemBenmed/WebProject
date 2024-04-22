@@ -12,6 +12,7 @@ if (!isset($_SESSION['username'])) {
 <html>
 <head>
     <meta charset="utf-8">
+    <title>Movie&#x1F3AC; </title>
     <link rel="stylesheet" href="../css/style1.css" media="screen" type="text/css">
 </head>
 <body>

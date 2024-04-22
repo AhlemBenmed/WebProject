@@ -12,13 +12,14 @@ if (!isset($_SESSION['username'])) {
 <html>
 <head>
     <meta charset="utf-8">
+    <title>Movie&#x1F3AC; </title>
     <link rel="stylesheet" href="../css/style1.css" media="screen" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 <body>
     <div id="container">
         <form id="changeusernameForm" method="post" action="../php/change_username.php">
-        <?php session_start(); echo "<label> <h2> Welcome " . $_SESSION['username'] . " &#x1F60A;</h2></label>"; ?>
+        <?php echo "<label> <h2> Welcome " . $_SESSION['username'] . " &#x1F60A;</h2></label>"; ?>
             <h1>Change username</h1>
             <label>New Username:</label>
             <input type="text" id="new_username" name="new_username" required><br><br>
